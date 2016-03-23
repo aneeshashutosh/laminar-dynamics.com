@@ -479,3 +479,7 @@ body {
     width: 75px;
     height: auto;
 }
+
+.drone {
+    background-image: url("img/drone.jpg");
+}
