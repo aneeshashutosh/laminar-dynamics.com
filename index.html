@@ -16,7 +16,6 @@
 
     <!-- Custom Fonts -->
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css" type="text/css">
 
     <!-- Plugin CSS -->
@@ -71,84 +70,92 @@
     <header>
         <div class="header-content">
             <div class="header-content-inner">
-                <img src="img/logo.png">
+                <img id="logo" src="img/logo.png">
                 <hr>
-                <p style="color: white">Drones for vaccine delivery</p>
+                <p id="header-subtitle">Drones for vaccine delivery</p>
                 <a href="#about" class="btn btn-primary btn-xl page-scroll">Learn More</a>
             </div>
         </div>
     </header>
 
-    <section id="about">
+    <section id="about" class="container-bg" style="background-image: url(img/slides/slide_1.jpg)">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">THE PROBLEM</h2>
+                    <h2 class="section-heading"><strong>The "Last Mile" Problem</strong></h2>
                     <hr class="primary">
                 </div>
             </div>
         </div>
         <div class="container">
             <div class="row">
-                <div class="col-lg-4 col-md-6 text-center">
-                    <div class="service-box">
-                        <img class="fa fa-4x icon wow bounceIn text-primary" src="img/icons/loc.png"></img>
-                        <h3>The Crisis</h3>
-                        <p class="text-muted">In 2014, an estimated 18.7 million infants worldwide were not reached with routine immunization services such as DTP3 vaccine. 1.5 million children die each year from vaccine-preventable diseases.</p>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 text-center">
-                    <div class="service-box">
-                        <img class="fa fa-4x icon wow bounceIn text-primary" data-wow-delay=".1s" src="img/icons/sun.png"></img>
-                        <h3>The Focus</h3>
-                        <p class="text-muted">More than 70 percent of the world’s unvaccinated children live in 10 countries with large populations and weak immunization systems.</p>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 text-center">
-                    <div class="service-box">
-                        <img class="fa fa-4x icon wow bounceIn text-primary" data-wow-delay=".2s" src="img/icons/terrain.png"></img>
-                        <h3>The Last Mile</h3>
-                        <p class="text-muted">The final segment of vaccine delivery, between distribution center and immunization post. Small loads. Frequent deliveries. But road infrastructure is poor or non-existent.</p>
-                    </div>
+                <div class="col-lg-8 col-lg-offset-2 text-center" style="margin-top: 5%">
+                    <p class="text-faded" id="header-subtitle" style="font-size: 24px"><strong>The final segment of vaccine delivery, between distribution center and immunization post.</strong><br>Small loads. Frequent deliveries.<br>But road infrastructure is <strong>poor or non-existent.</strong> </p>
                 </div>
             </div>
         </div>
     </section>
 
-    <section class="bg-primary">
+    <section class="bg-primary" class="container-bg" style="background-image: url(img/slides/slide_2.jpg)">
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <h2 class="section-heading">OUR SOLUTION</h2>
-                    <hr class="light">
+                    <h2 class="section-heading"><strong>Our Solution</strong></h2>
+                    <p class="text-faded" id="header-subtitle" style="font-size: 18px">We propose a radical solution to the last-mile problem: a drone delivery network utilizing<br> the latest hardware controled by our powerful in-house autopilot software.</p>
                 </div>
             </div>
         </div>
         <div class="container">
             <div class="row">
-                <div class="col-lg-12 text-center">
-                    <p class="text">We propose a radical solution to the last-mile problem: a drone delivery network utilizing<br> the latest hardware controled by our powerful in-house autopilot software.
-                    </p>
-                </div>
                 <div class="col-lg-4 col-md-6 text-center">
                     <div class="service-box">
                         <img class="fa fa-4x icon wow bounceIn text-primary" src="img/icons/fixed.png" style="filter: invert(100%)"></img>
                         <h3>Fixed-Wing Drone</h3>
-                        <p class="text">For vaccines and large, one-way payloads</p>
+                        <p class="text">For vaccines and large, one-way payloads.</p>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 text-center">
                     <div class="service-box">
                         <img class="fa fa-4x icon wow bounceIn text-primary" data-wow-delay=".1s" src="img/icons/quad.png" style="filter: invert(100%)"></img>
                         <h3>Hybrid Drone</h3>
-                        <p class="text">For blood work and medium payloads</p>
+                        <p class="text">For blood work and medium payloads.</p>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 text-center">
                     <div class="service-box">
                         <img class="fa fa-4x icon wow bounceIn text-primary" data-wow-delay=".2s" src="img/icons/base.png" style="filter: invert(100%)"></img>
                         <h3>Ground Station</h3>
-                        <p class="text">Communications and coordination hub</p>
+                        <p class="text">Communications and coordination hub.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="bg-primary" class="container-bg" style="background-image: url(img/slides/slide_3.jpg)">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <h2 class="section-heading"><strong>Market Validation</strong></h2>
+                    <p class="text-faded" id="header-subtitle" style="font-size: 18px">Some of the world's largest and most influential Non-Governmental Organizations (NGOs) have confirmed the need for drone delivery. Here's why:</p>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-6 text-center">
+                    <div class="service-box">
+                        <p class="text">Extensive computer modeling of delivery by fixed-wing-drone in Mozambique estimates <strong>a cost saving of $0.08 per dose administered</strong> versus traditional delivery.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 text-center">
+                    <div class="service-box">
+                        <p class="text">In 2014, an estimated <strong>18.7 million infants</strong> worldwide were not reached with routine immunization services such as DTP3 vaccine.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 text-center">
+                    <div class="service-box">
+                        <p class="text">WHO launched an initiative to improve vaccination standards, but 5 out of the 6 targets were off-track in 2015.</p>
                     </div>
                 </div>
             </div>
@@ -162,54 +169,6 @@
                     <h2 class="section-heading">DRONE DELIVERY</h2>
                     <hr class="light">
                     <p class="text-faded">A few months ago, we began developing our first two drones in collaboration with NPU (Northeastern Polytechnical University) in Xi’an. <strong>These are now fully working prototypes.</strong></p>
-                    <p class="text-faded">Our drones have a <strong>400km (250 mile)</strong> range, a payload of <strong>25kg (55 lbs)</strong>, and speed of <strong>90 mph (145 kph)</strong>. They are deployed autonomously to parachute life-saving parcels, driven by in-house autopilot, with RC backup.</p>
-                    <p class="text-faded">Each drone costs <strong>$2,500</strong>, with an expected lifespan of <strong>1200 missions</strong> and almost <strong>no maintenance cost</strong>. <strong>Each delivery over 100 miles is expected to cost only $4.</strong></p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section id="about">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">IMPACT</h2>
-                    <hr class="primary">
-                </div>
-            </div>
-        </div>
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <p class="text-muted">Some of the world's largest and most influential Non-Governmental Organizations (NGOs)<br> have confirmed the need for drone delivery. Here's why:
-                    </p>
-                </div>
-                <div class="col-lg-4 col-md-6 text-center">
-                    <div class="service-box">
-                    <!--
-                        <img class="fa fa-4x icon wow bounceIn text-primary" src="img/icons/loc.png"></img>
-                        <h3>The Crisis</h3>
-                        -->
-                        <p class="text-muted">Computer modeling of delivery by fixed-wing-drone in Mozambique estimates a <strong>cost saving of $0.08 per dose administered</strong> versus traditional delivery.</p>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 text-center">
-                    <div class="service-box">
-                    <!--
-                        <img class="fa fa-4x icon wow bounceIn text-primary" data-wow-delay=".1s" src="img/icons/sun.png"></img>
-                        <h3>The Focus</h3>
-                        -->
-                        <p class="text-muted">In 2014, an estimated <strong>18.7 million infants</strong> worldwide were not reached with routine immunization services such as DTP3 vaccine.</p>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 text-center">
-                    <div class="service-box">
-                    <!--
-                        <img class="fa fa-4x icon wow bounceIn text-primary" data-wow-delay=".2s" src="img/icons/terrain.png"></img>
-                        <h3>The Last Mile</h3>
-                        -->
-                        <p class="text-muted">WHO launched an initiative to improve vaccination standards, but <strong>5 out of the 6 targets</strong> were off-track in 2015.</p>
-                    </div>
                 </div>
             </div>
         </div>

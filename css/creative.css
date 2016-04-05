@@ -11,7 +11,7 @@ body {
 }
 
 body {
-    font-family: Merriweather,'Helvetica Neue',Arial,sans-serif;
+    font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
 }
 
 hr {
@@ -173,6 +173,20 @@ aside {
 }
 
 header {
+    position: relative;
+    width: 100%;
+    min-height: auto;
+    text-align: center;
+    color: #fff;
+    background-image: url(../img/header.jpg);
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.container-bg {
     position: relative;
     width: 100%;
     min-height: auto;
@@ -487,4 +501,15 @@ body {
 
 .drone {
     background-image: url("img/drone.jpg");
+}
+
+#logo {
+    width: 530px;
+    height: auto;
+}
+
+#header-subtitle {
+    color: white;
+    font-size: 30px;
+    font-weight: 400;
 }
