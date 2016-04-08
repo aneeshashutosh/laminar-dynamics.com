@@ -4,7 +4,6 @@ add parallax
 popup bios on each team member
 getmii style header
 make each box header-sized
-optimize seo
 footer with photo creds page
 contact form
 Write report for how nurses can use our software
@@ -21,3 +20,7 @@ Vinay Mehta - Columbia Engineering ‘18 - vm2372@columbia.edu; Marketing Analys
 Aneesh Ashutosh - NYU '19; Webmaster / Software Engineer
 Carlos Martin - Columbia Engineering ‘18 - cgm2142@columbia.edu; Software Engineer
 Justin Calamari - Columbia Engineering ‘18 - jsc2223@columbia.edu; Data Analyst
+
+Since last meeting:
+SEO Optimized
+Code commented for readability
