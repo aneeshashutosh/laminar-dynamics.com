@@ -1,3 +1,5 @@
+add andy and catherine to website
+
 add images of proto drones
 add parallax bars
 add parallax
@@ -6,10 +8,6 @@ getmii style header
 make each box header-sized
 footer with photo creds page
 contact form
-Write report for how nurses can use our software
- - are tablets the best solution?
- - how can we distribute?
- - how do they signal for more vaccine?
 
 Harvey Wu - Columbia Engineering ’18 - hw2473@columbia.edu; CEO / Co-founder
 Baoyi “Eric” Xu - Columbia College ‘18 - bx2135@columbia.edu; CFO / Co-founder
