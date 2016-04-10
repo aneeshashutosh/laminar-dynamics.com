@@ -1,5 +1,3 @@
-add andy and catherine to website
-
 add images of proto drones
 add parallax bars
 add parallax
